@@ -1,0 +1,7 @@
+bat
+fzf
+htop
+lsd
+neofetch
+neovim
+youtube-dl
