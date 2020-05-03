@@ -1,7 +1,6 @@
 bat
 fzf
-htop
+bashtop
 lsd
 neofetch
 neovim
-youtube-dl

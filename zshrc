@@ -1,10 +1,9 @@
 # kaLn zshrc
 # path vars
-export PATH=$HOME/.cargo/bin:$HOME/.local/bin:/usr/local/bin:$PATH
-export GOPATH=$HOME/go
+export PATH=$HOME/.local/bin:/usr/local/bin:$PATH
 
 # oh-my-zsh path
-export ZSH="/home/kaln/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 # theme
 ZSH_THEME="spaceship"
@@ -15,5 +14,5 @@ plugins=(git zsh-syntax-highlighting)
 source $ZSH/oh-my-zsh.sh
 
 # aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
+alias ls="lsd"
+alias cat="bat"
