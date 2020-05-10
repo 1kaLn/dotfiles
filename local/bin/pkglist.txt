@@ -1,6 +1,0 @@
-bat
-fzf
-bashtop
-lsd
-neofetch
-neovim
