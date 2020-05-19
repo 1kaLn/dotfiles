@@ -1,3 +1,9 @@
+# shell
+alias reload="source ~/.zshrc"
+
+# dirs
+alias lab="cd ~/Lab"
+
 # aliases
 alias cat="bat"
 alias ls="lsd"
