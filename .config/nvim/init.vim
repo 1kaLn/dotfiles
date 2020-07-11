@@ -4,13 +4,14 @@
 "
 call plug#begin('~/.local/share/nvim/plugged')
 
-Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-Plug 'deoplete-plugins/deoplete-jedi'
-Plug 'jiangmiao/auto-pairs'
+Plug 'neoclide/coc.nvim', { 'branch': 'release' }
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'jiangmiao/auto-pairs'
+Plug 'tpope/vim-surround'
+Plug 'mbbill/undotree'
+Plug 'neomake/neomake'
 Plug 'dracula/vim', { 'as': 'dracula' }
-
 call plug#end()
 
 " Sets
@@ -30,3 +31,8 @@ let g:airline_theme='dracula'
 " Deoplete
 " 
 let g:deoplete#enable_at_startup=1
+
+" Neomake
+"
+call neomake#configure#automake('w')
+

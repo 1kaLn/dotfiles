@@ -1,6 +1,10 @@
 # shell
 alias reload="source ~/.zshrc"
 
+# pacman
+# list explicitly installed packages
+alias pacls="pacman -Qe"
+
 # dirs
 alias lab="cd ~/Lab"
 
